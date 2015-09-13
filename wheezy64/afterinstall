@@ -1,0 +1,9 @@
+#!/bin/bash
+mkdir -p /usr/local/aimpanel/run/
+chmod -R 750 /usr/local/aimpanel/
+chown -R aimpanel:aimpanel /usr/local/aimpanel/
+chmod 755 /etc/init.d/aimpanel-nginx
+if [ -x "/etc/init.d/aimpanel-nginx" ]; then
+	update-rc.d aimpanel-nginx defaults >/dev/null || exit $?
+fi
+service aimpanel-nginx restart
