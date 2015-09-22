@@ -1,0 +1,4 @@
+[Aimpanel HTTP]
+title=Aimpanel Web Server (Nginx, HTTP)
+description=Aimpanel - game control panel, powered by Nginx
+ports=1313/tcp
