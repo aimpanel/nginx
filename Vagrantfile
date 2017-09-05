@@ -5,7 +5,7 @@ Vagrant.configure(2) do |config|
 
 #wheezy64build
   config.vm.define "wheezy64build" do |wheezy64build|
-    wheezy64build.vm.box = "deb/wheezy-amd64"
+    wheezy64build.vm.box = "debian/wheezy64"
     wheezy64build.vm.provider "virtualbox" do |vb|
       vb.memory = "2048"
       vb.cpus = 7
