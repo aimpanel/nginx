@@ -6,7 +6,7 @@ MAKE_THREADS=7
 apt-get update
 
 ##Build nginx on debian wheezy, ubuntu trusty
-apt-get install -y build-essential rsync libpcre3-dev
+apt-get install -y build-essential rsync libpcre3-dev zlib1g-dev
 NGINX_FILENAME="nginx-1.8.0"
 TEMP_DIR="/tmp/aimpanel_setup"
 mkdir -p $TEMP_DIR/nginx
