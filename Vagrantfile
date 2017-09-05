@@ -1,6 +1,5 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
-#Copyright © 2015 Michał Frąckiewicz. All rights reserved.
 
 Vagrant.configure(2) do |config|
 
