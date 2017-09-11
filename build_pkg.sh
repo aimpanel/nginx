@@ -14,10 +14,10 @@ fpm -s dir -t deb \
  --version $1 \
  --name "aimpanel-nginx" \
  --description "Easy to use control panel for game servers - integrated high performance nginx WWW server" \
- --url "https://lvlup.pro" \
- --vendor "LVL UP" \
- -m "Michał Frąckiewicz <michal@lvlup.pro>" \
- --license "All rights reserved" \
+ --url "https://github.com/aimpanel/nginx" \
+ --vendor "Aimpanel" \
+ -m "Michał Frąckiewicz <hello@systemz.pl>" \
+ --license "Apache License, Version 2.0" \
  --before-install beforeinstall \
  --after-install afterinstall \
  -d aimpanel-php \
